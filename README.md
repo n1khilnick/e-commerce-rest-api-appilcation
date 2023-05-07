@@ -28,7 +28,7 @@
 >User's API References
 <br>
 
-* Add User:
+* Add Users:
 ```*.sh-session
   http://localhost:8080/user/
 ```
@@ -63,6 +63,7 @@
   http://localhost:8080/address/{addressId}
 ```
 
+<br>
 
 >Product's API References:
 <br>
@@ -87,11 +88,12 @@
   http://localhost:8080/products/{productId}
 ```
 
+<br>
 
 >Order's API References:
 <br>
 
-* Add Orders:
+* Add Order:
 ```*.sh-session
   http://localhost:8080/orders/
 ```
@@ -101,10 +103,11 @@
   http://localhost:8080/orders/
 ```
 
-* Get Orders By ID:
+* Get Order By ID:
 ```*.sh-session
   http://localhost:8080/orders/{orderId}
 ```
+<br>
 
 ### 3. Service:
 * It consists of **UserService** ,**AddressService**, **ProductService** and **OrderService** classes in which provide some business functionalities of every handler methods.
